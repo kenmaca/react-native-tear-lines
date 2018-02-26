@@ -30,6 +30,7 @@ import TearLines from "react-native-tear-lines";
       this.refs.bottom.onLayout(e);
     }} />
   <TearLines
+    isBelow
     ref="bottom"
     color="#FFFFFF"
     backgroundColor="#CCCCCC">
