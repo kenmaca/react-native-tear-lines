@@ -30,7 +30,7 @@ import TearLines from "react-native-tear-lines";
       this.refs.bottom.onLayout(e);
     }} />
   <TearLines
-    isBelow
+    isUnder
     ref="bottom"
     color="#FFFFFF"
     backgroundColor="#CCCCCC">
@@ -41,7 +41,7 @@ import TearLines from "react-native-tear-lines";
 
 | Prop | Description | Default | Required |
 |---|---|---|---|
-|**`isBelow`**|`true` if this `TearLines` is used at the bottom of the attached view rather than the top.|`false`|No|
+|**`isUnder`**|`true` if this `TearLines` is used at the bottom of the attached view rather than the top.|`false`|No|
 |**`color`**|Foreground color; should match attached content view's background color.|`#FFFFFF`|No|
 |**`backgroundColor`**|Background color, should match container's background color.|`#CCCCCC`|No|
 |**`tearSize`**|Specifies how large each tear tile is. Larger values will render less tiles.|`10`|No|

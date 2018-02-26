@@ -1,6 +1,6 @@
 {
   "name": "react-native-tear-lines",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Zig-zag borders to simulate tear lines normally seen on receipts",
   "main": "index.js",
   "author": {
