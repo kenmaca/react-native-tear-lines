@@ -1,0 +1,45 @@
+{
+  "name": "react-native-tear-lines",
+  "version": "1.0.0",
+  "description": "Zig-zag borders to simulate tear lines normally seen on receipts",
+  "main": "index.js",
+  "author": {
+    "name": "Kenneth Ma",
+    "email": "ken@kenma.ca>",
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "ui",
+    "zig-zag",
+    "zig",
+    "zag",
+    "borders",
+    "tearlines",
+    "tear",
+    "receipts",
+    "rip"
+  ],
+  "homepage": "https://github.com/kenmaca/react-native-tear-lines",
+  "bugs": {
+    "url": "https://github.com/kenmaca/react-native-tear-lines/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kenmaca/react-native-tear-lines.git"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-eslint": "^7.0.0",
+    "babel-jest": "^20.0.3"
+  },
+  "license": "MIT",
+  "private": false
+}
