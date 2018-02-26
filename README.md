@@ -12,7 +12,7 @@ yarn add react-native-tear-lines
 ## Usage
 
 Use `TearLines`'s `onLayout` method in the attached component's `onLayout` prop
-to dynamically match it's width like demonstrated below:
+to dynamically match its width as demonstrated below:
 
 ```js
 import { View } from "react-native";
@@ -40,6 +40,7 @@ import TearLines from "react-native-tear-lines";
 
 | Prop | Description | Default | Required |
 |---|---|---|---|
+|**`isBelow`**|`true` if this `TearLines` is used at the bottom of the attached view rather than the top.|`false`|No|
 |**`color`**|Foreground color; should match attached content view's background color.|`#FFFFFF`|No|
 |**`backgroundColor`**|Background color, should match container's background color.|`#CCCCCC`|No|
 |**`tearSize`**|Specifies how large each tear tile is. Larger values will render less tiles.|`10`|No|
