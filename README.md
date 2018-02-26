@@ -1,7 +1,7 @@
 # react-native-tear-lines
 Zig-zag borders to simulate tear lines normally seen on receipts.
 
-![tear-lines-demo](demo.png)
+![tear-lines-demo](demo.png | width=200)
 
 ## Installation
 
