@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface Props {
+interface IProps {
   isUnder?: boolean
   color?: string
   backgroundColor?: string
@@ -9,7 +9,7 @@ interface Props {
   ref?: React.Ref<any>
 }
 
-declare const Component: React.SFC<Props>
+declare const Component: React.SFC<IProps>
 
-export type TearLinesProps = Props
+export type TearLinesProps = IProps
 export default Component
