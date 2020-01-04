@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "Zig-zag borders to simulate tear lines normally seen on receipts",
   "main": "index.js",
+  "types": "index.d.ts",
   "author": {
     "name": "Kenneth Ma",
     "email": "ken@kenma.ca>"
